@@ -1,7 +1,9 @@
 .footer {
     margin: 80px auto 20px auto;
 }
-
+.footer a {
+    color: $secondary;
+}
 .footer-icon {
     font-size: 1.4em;
     color: $body-color;

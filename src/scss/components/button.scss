@@ -3,6 +3,7 @@
     font-weight: bold;
     background-color: transparent;
     border: none;
+    border-radius: 5px;
     position: relative;
     transition: top .4s linear;
     @include shadow3;
@@ -14,12 +15,12 @@
 }
 
 .button-primary {
-    background-color: $primary;
+    background-color: $secondary;
     color: $white;
     transition: background-color .4s linear, top .4s linear;
 
     &:hover {
-        background-color: desaturate($primary, 15%);
+        background-color: desaturate($secondary, 15%);
         top: -1px;
         transition: background-color .5s ease-in-out;
     }
@@ -27,7 +28,7 @@
 
 .button-white {
     background-color: $white;
-    color: $primary;
+    color: $secondary;
     transition: background-color .4s linear;
     box-shadow: 3px 3px 4px darken($white, 5%);
 

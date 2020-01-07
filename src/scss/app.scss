@@ -61,8 +61,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .text-styled {
     padding: 0 10px;
-    color: $primary;
-    background-color: rgba($primary, .3);
+    color: $secondary;
+    background-color: rgba($secondary, .3);
     line-height: 1.3em;
 }
 
@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .instructor__name {
     font-weight: bolder;
-    color: $primary;
+    color: $secondary;
     margin: 10px 0 0 0;
 }
 
@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: transparent;
     transition: background-color .5s linear;
     &:hover {
-        background-color: rgba($primary, .5);
+        background-color: rgba($secondary, .5);
         color: $white;
         transition: background-color .6s ease-in-out;
     }

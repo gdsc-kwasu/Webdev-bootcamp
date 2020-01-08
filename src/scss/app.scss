@@ -22,7 +22,21 @@ h1, h2, h3, h4, h5, h6 {
     width: 250px;
     height: 30px;
 }
-
+.card-img {
+    width: 100%;
+}
+#card-img0 {
+    height: 238px;
+    width: 320px;
+}
+#card-img1 {
+    height: 238px;
+    width: 320px;
+}
+#card-img2 {
+    height: 262px;
+    width: 320px;
+}
 @media screen and (max-width: 578px) {
     .logo {
         width: 135px;

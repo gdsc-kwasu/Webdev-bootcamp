@@ -97,11 +97,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .instructor__img {
-    height: 250px;
+    height: 270px;
     width: 100%;
     display: block;
 }
-
+.instructor {
+    border-radius: 8px;
+    border: none;
+}
 .instructor__name {
     font-weight: bolder;
     color: $secondary;
